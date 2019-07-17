@@ -1,3 +1,4 @@
+"podfile": "podfile"
 "language": "swift"
 "osx_image": "xcode11"
 "xcode_sdk": "iphonesimulator12.0"
