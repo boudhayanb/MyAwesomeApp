@@ -63,6 +63,7 @@
 		A50AD8FF22DEE39A0082D583 = {
 			isa = PBXGroup;
 			children = (
+				A50AD92D22DEF1000082D583 /* .travis.yml */,
 				A50AD90A22DEE39A0082D583 /* MyAwesomeApp */,
 				A50AD92122DEE39C0082D583 /* MyAwesomeAppTests */,
 				A50AD90922DEE39A0082D583 /* Products */,
@@ -81,7 +82,6 @@
 		A50AD90A22DEE39A0082D583 /* MyAwesomeApp */ = {
 			isa = PBXGroup;
 			children = (
-				A50AD92D22DEF1000082D583 /* .travis.yml */,
 				A50AD90B22DEE39A0082D583 /* AppDelegate.swift */,
 				A50AD90D22DEE39A0082D583 /* SceneDelegate.swift */,
 				A50AD90F22DEE39A0082D583 /* ViewController.swift */,
