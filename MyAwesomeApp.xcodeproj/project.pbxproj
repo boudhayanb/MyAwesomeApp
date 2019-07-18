@@ -14,7 +14,6 @@
 		A50AD91522DEE39C0082D583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50AD91422DEE39C0082D583 /* Assets.xcassets */; };
 		A50AD91822DEE39C0082D583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50AD91622DEE39C0082D583 /* LaunchScreen.storyboard */; };
 		A50AD92322DEE39C0082D583 /* MyAwesomeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50AD92222DEE39C0082D583 /* MyAwesomeAppTests.swift */; };
-		A50AD92E22DEF1000082D583 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = A50AD92D22DEF1000082D583 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		A50AD91E22DEE39C0082D583 /* MyAwesomeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAwesomeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50AD92222DEE39C0082D583 /* MyAwesomeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAwesomeAppTests.swift; sourceTree = "<group>"; };
 		A50AD92422DEE39C0082D583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A50AD92D22DEF1000082D583 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 		A50AD8FF22DEE39A0082D583 = {
 			isa = PBXGroup;
 			children = (
-				A50AD92D22DEF1000082D583 /* .travis.yml */,
 				A50AD90A22DEE39A0082D583 /* MyAwesomeApp */,
 				A50AD92122DEE39C0082D583 /* MyAwesomeAppTests */,
 				A50AD90922DEE39A0082D583 /* Products */,
@@ -185,7 +182,6 @@
 			files = (
 				A50AD91822DEE39C0082D583 /* LaunchScreen.storyboard in Resources */,
 				A50AD91522DEE39C0082D583 /* Assets.xcassets in Resources */,
-				A50AD92E22DEF1000082D583 /* .travis.yml in Resources */,
 				A50AD91322DEE39A0082D583 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
