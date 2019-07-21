@@ -108,7 +108,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cocoapods
+  cocoapods (= 1.7.5)
   danger (~> 5.5, >= 5.5.3)
 
 BUNDLED WITH
