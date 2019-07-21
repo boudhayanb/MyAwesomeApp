@@ -14,6 +14,6 @@ matrix:
  fast_finish: true
  include:
  - osx_image: xcode11
-   env: CI_BUILD_TARGET='nap' CI_DEVICE='iPhone 8 (12.0)' DANGER="ALLOW"
+   env: CI_BUILD_TARGET='MyAwesomeApp' CI_DEVICE='iPhone 8 (12.0)' DANGER="ALLOW"
  - osx_image: xcode11
-   env: CI_BUILD_TARGET='nap' CI_DEVICE='iPad Air 2 (12.0)'
+   env: CI_BUILD_TARGET='MyAwesomeApp' CI_DEVICE='iPad Air 2 (12.0)'
