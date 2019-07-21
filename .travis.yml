@@ -3,9 +3,9 @@ osx_image: xcode11
 language: swift
 script: xcodebuild clean build test -project MyAwesomeApp.xcodeproj -scheme "MyAwesomeApp" -sdk iphonesimulator -destination "platform=iOS Simulator,OS=13.0,name=iPhone 8" ONLY_ACTIVE_ARCH=NO CODE_SIGNING_REQUIRED=NO 
 before_script:
-- gem install fastlane --no-ri --no-rdoc --no-document
-- gem install danger --no-ri --no-rdoc --no-document
-- gem install danger-swiftlint --no-ri --no-rdoc --no-document
+- gem install fastlane --no-document
+- gem install danger --no-document
+- gem install danger-swiftlint --no-document
 - if [ $DANGER == "ALLOW" ]; then
          danger;
          ./Pods/SwiftLint/swiftlint lint --config .swiftlint-ci.yml;
