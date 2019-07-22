@@ -85,7 +85,6 @@
 				A55ADCCFF6EBEF8777796CD6 /* Pods-MyAwesomeAppTests.debug.xcconfig */,
 				9BED1DD732035DDC47FEC8D7 /* Pods-MyAwesomeAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -464,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72Q6AQ8Z5U;
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -482,6 +482,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72Q6AQ8Z5U;
 				INFOPLIST_FILE = MyAwesomeApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
